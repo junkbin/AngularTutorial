@@ -1,0 +1,15 @@
+.bg-media{
+    height: 100vh;
+    background: dodgerblue;
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: fantasy;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
