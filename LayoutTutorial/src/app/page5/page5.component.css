@@ -13,3 +13,15 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:600px){
+    .bg-media {
+        background: darkorchid;
+    }
+}
+
+@media screen and (max-width:400px){
+    .bg-media {
+        background: tomato;
+    }
+}
