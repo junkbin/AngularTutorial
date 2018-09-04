@@ -4,11 +4,13 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { appRoutes, appComponents} from './app-routes';
+import { SafePipe } from './common/safe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    appComponents
+    appComponents,
+    SafePipe
   ],
   imports: [
     BrowserModule,
