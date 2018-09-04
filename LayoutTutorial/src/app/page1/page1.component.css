@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-container {
+    flex-basis: 75%;
+    min-height: 96vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .sub-container {
+        flex-basis: 90%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .sub-container {
+        flex-basis: 100%;
+    }
+}
+
+.box{
+    min-height: 150px;
+    color:white;
+    font-size: 20px;
+    padding-left: 4px;
+    text-align: justify;
+    margin-bottom: 2px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
