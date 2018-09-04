@@ -4,15 +4,29 @@
 }
 
 .sub-container{
-    flex-basis: 50%;
     color:whitesmoke;
+    flex-basis: 100%;
 
     display: flex;
     flex-direction: column;
 }
 
+@media (min-width:800px) {
+    .sub-container {
+        flex-basis: 70%;
+    }
+}
+
+@media (min-width:900px) {
+    .sub-container {
+        flex-basis: 50%;
+    }
+}
+
 .box {
     height: 100px;
+    font-weight: bold;
+    font-size: large;
 
     border-radius: 5px;
     display: flex;
